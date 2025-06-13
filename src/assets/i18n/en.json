@@ -1,0 +1,90 @@
+{
+    "welcome": "Welcome!",
+    "emailCopied": "Email copied to clipboard!",
+    "header": {
+        "aboutMe": "About Me",
+        "experience": "Experience",
+        "projects": "Projects",
+        "contact": "Contact",
+        "resume": "Resume"
+    },
+    "introduction": {
+        "title": "Hello there! my name is",
+        "fullStackDeveloper": "Full-Stack Developer",
+        "description": "Enthusiastic about crafting groundbreaking web experiences. Skilled in HTML, CSS, JavaScript, Angular, Symfony, Java, and Node.js. Let's collaborate to create something extraordinary! 🚀 Let's build together!",
+        "checkOutMySocials": "Check out my socials:",
+        "sayhi": "Say hi !",
+        "explore": "Explore!"
+    },
+    "home": {
+        "aboutMe": {
+            "title": "About Me",
+            "description": "I am a recent Computer Science graduate specializing in Web Development. With a strong foundation in full-stack development, I also have a keen interest in AI and Data Science. I am passionate about leveraging my diverse skill set to contribute to innovative and impactful projects.",
+            "totalGithubFollowers": "Total Github Followers",
+            "totalGithubRepos": "Total Github Repos",
+            "areasForGrowth": "Areas for Growth",
+            "howMuchIBench": "How much I bench"
+        },
+        "experience": {
+            "title": "Experience",
+            "active": "Active",
+            "skills": "Skills",
+            "endOfStudiesInternship": "End of Studies Internship",
+            "professionalInternship": "Professional Internship",
+            "introductoryInternship": "Introductory Internship",
+            "to": "to",
+            "SONEDEDescription": {
+                "line1": "Developed a web application allowing SONEDE clients to submit and track their complaints online.",
+                "line2": "Developed a second web application enabling SONEDE clients to manage their accounts, view bills, monitor water consumption, and make online payments"
+                
+            },
+            "SONEDEFrontEnd": {
+                "line1": "Developed the user interface using React.js to create a dynamic and responsive user experience."
+                
+            },
+            "SONEDEBackEnd": {
+                "line1": "Implemented RESTful services with Spring Boot to handle business logic and interactions with the database."
+                
+            },
+            "SONEDEDB": {
+                "line1": "Designed and managed the relational database using MySQL for the claims management application, and SQL Server for the customer portal application."
+                
+            },
+
+            "PoulinaDescription": "Development of a web application for managing agreements within Poulina, enabling better organization and tracking of contracts and commercial agreements.",
+            "Tunisie TelecomDescription": "Implemented the sales strategy, monitored the competition, and collaborated with other teams."
+        },
+        "projects": {
+            "title": "Projects",
+            "ViewSource": "View Source Code",
+            "InternshipReport": "Video",
+            "webApplication": "Web Application",
+            "MedTravel": {
+                "description": "Med Travel is a medical tourism web platform that allows international patients to book medical services and accommodations, while also simplifying administrative management for partner clinics."
+            },
+            "MedTravel APP": {
+                "description": "Med Travel is a Java/JavaFX desktop application for medical tourism that allows international patients to book medical services and accommodations, while also simplifying administrative management for partner clinics."
+            },
+            "SonedApp": {
+                "description": "SonedApp is a web application enabling SONEDE clients to manage their accounts, view bills, monitor water consumption, and make online payments."
+            },
+            "Campus Match": {
+                "description": "Campus Match is a FlutterFlow-based mobile application designed exclusively for university students. It allows users to book sports fields, challenge other university teams, and purchase official team jerseys. The app promotes campus sports by making it easy to organize matches, connect with other teams, and show school spirit through team merchandise."
+            }
+        }
+    },
+    "contact": {
+        "getInTouch": "Get in Touch!",
+        "letsBuild": "Let's Build",
+        "somethingTogether": "Something Together",
+        "description": " I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message.",
+        "dontLikeMails": " Don't like mails ? Send me a",
+        "messageInstead": " message instead👋"
+    },
+    "footer": {
+        "bye": "Bye! See you soon",
+        "madeWith": "Made with",
+        "and": "and",
+        "rightsReserved": "All rights reserved."
+    }
+}

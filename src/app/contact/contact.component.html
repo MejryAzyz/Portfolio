@@ -1,0 +1,111 @@
+<!-- ========== MAIN CONTENT ========== -->
+<main
+  id="content"
+  role="main"
+  class="max-w-3xl px-4 sm:px-6 lg:px-8 flex flex-col justify-center sm:items-center mx-auto w-full"
+  *transloco="let t; read: 'contact'"
+>
+  <div class="text-center py-8 px-4 sm:px-6 lg:px-8">
+    <h1
+      id="getintouch"
+      class="dark:text-white font-fira-code text-center mb-10 text-2xl md:text-3xl lg:text-4xl font-bold bg-clip-text"
+    >
+      <span class="text-blue-500">4.0</span> {{ t("getInTouch") }}
+      <div
+        class="absolute inset-0 w-full h-full bg-backgroundrgb [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"
+      ></div>
+    </h1>
+    <!-- Title -->
+    <div id="text" class="mt-5 max-w-2xl text-center mx-auto">
+      <h1
+        class="block font-bold text-4xl md:text-5xl lg:text-6xl dark:text-gray-200"
+      >
+        {{ t("letsBuild") }}
+        <span
+          class="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent"
+          >{{ t("somethingTogether") }}</span
+        >
+      </h1>
+    </div>
+    <!-- End Title -->
+
+    <div id="text" class="mt-5 max-w-3xl text-center mx-auto">
+      <p class="text-lg text-gray-400">
+        {{ t("description") }}
+      </p>
+    </div>
+
+    <!-- Buttons -->
+    <div id="text" class="mt-8 gap-3 flex justify-center">
+      <button
+        id="hs-clipboard-basic"
+        type="button"
+        (click)="copyText()"
+        class="relative group p-2 ps-3 inline-flex items-center gap-x-2 text-sm font-mono rounded-lg border disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 focus:outline-none focus:ring-1 dark:focus:ring-gray-600"
+      >
+        $ med.azyz.mejry&#64;gmail.com
+        <span
+          class="flex ml-1 justify-center items-center rounded-md w-7 h-7 bg-gray-700 text-gray-400"
+        >
+          <button
+            type="button"
+            title="Copy to clipboard"
+            aria-label="Copy to clipboard"
+            class="js-clipboard p-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border disabled:opacity-50 disabled:pointer-events-none bg-slate-900 border-gray-700 dark:text-white hover:bg-gray-800 focus:outline-none focus:ring-1 focus:ring-gray-600"
+            data-clipboard-target="#hs-clipboard-basic"
+            data-clipboard-action="copy"
+            data-clipboard-success-text="Copied"
+          >
+            <svg
+              class="js-clipboard-default w-4 h-4 group-hover:rotate-6 transition"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+              <path
+                d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"
+              />
+            </svg>
+
+            <svg
+              class="js-clipboard-success hidden w-4 h-4 text-blue-600"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+          </button>
+        </span>
+      </button>
+    </div>
+    <div>
+      <p class="dark:text-white font-fira-code mt-4">
+        {{ t("dontLikeMails") }}
+        <a
+          class="text-blue-500"
+          href="https://www.linkedin.com/in/mejry-azyz/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Linkedin</a
+        >
+        {{ t("messageInstead") }}
+      </p>
+    </div>
+    <!-- End Buttons -->
+  </div>
+</main>
+<!-- ========== END MAIN CONTENT ========== -->

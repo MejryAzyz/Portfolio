@@ -1,0 +1,136 @@
+<div
+  class="max-w-[85rem] text-left flex flex-col lg:flex-row justify-start mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10"
+  id="about"
+  *transloco="let t; read: 'introduction'"
+>
+  <div class="flex mt-44 w-full flex-col lg:flex-row">
+    <!-- particles -->
+    <div id="particles-js"></div>
+    <!-- End particles -->
+
+    <!-- Title -->
+    <div class="lg:mt-5 max-w-2xl text-center mt-3 md:text-left lg:text-left">
+      <div class="dark:text-white text-2xl">
+        <h1>{{ t("title") }}</h1>
+      </div>
+      <h1
+        class="block font-semibold text-4xl md:text-5xl lg:text-6xl dark:text-gray-200"
+      >
+        Mejri Mohamed Aziz
+      </h1>
+      <h1
+        class="bg-clip-text w-full font-bold text-xl md:text-5xl mt-4 bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent typewriter inline-block"
+      >
+        {{ t("fullStackDeveloper") }}
+      </h1>
+      <div class="mt-5 max-w-3xl text-left">
+        <p class="text-lg dark:text-gray-400">
+          {{ t("description") }}
+        </p>
+      </div>
+
+      <div class="dark:text-white font-fira-code mt-3">
+        <p>{{ t("checkOutMySocials") }}</p>
+      </div>
+
+      <!-- Buttons -->
+      <div
+        class="flex gap-4 z-50 justify-center md:justify-start lg:justify-start"
+      >
+        <div class="mt-8 gap-3">
+          <div
+            class="overflow-hidden w-32 p-2 h-12 bg-transparent dark:border-white border-blue-400 border-2 dark:text-white rounded-md text-xl font-bold cursor-pointer relative z-10 group"
+          >
+            <i class="pi pi-github"></i>
+            <a
+              href="https://github.com/MejryAzyz"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Github</a
+            >
+            <span
+              class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
+            ></span>
+            <span
+              class="absolute w-36 h-32 -top-8 -left-2 bg-indigo-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"
+            ></span>
+            <span
+              class="absolute w-36 h-32 -top-8 -left-2 bg-indigo-600 rotate-12 transform scale-x-0 group-hover:scale-x-50 transition-transform group-hover:duration-1000 duration-500 origin-left"
+            ></span>
+            <span
+              class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2 left-6 z-10"
+              ><a
+                href="https://github.com/MejryAzyz"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                {{ t("explore") }}</a
+              ></span
+            >
+          </div>
+        </div>
+        <div class="mt-8 gap-3">
+          <div
+            class="overflow-hidden w-32 p-2 h-12 bg-transparent dark:border-white border-blue-400 border-2 dark:text-white rounded-md text-xl font-bold cursor-pointer relative z-10 group"
+          >
+            <i class="pi pi-linkedin"></i>
+            <a
+              href="https://www.linkedin.com/in/mejry-azyz/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Linkedin</a
+            >
+            <span
+              class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
+            ></span>
+            <span
+              class="absolute w-36 h-32 -top-8 -left-2 bg-indigo-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"
+            ></span>
+            <span
+              class="absolute w-36 h-32 -top-8 -left-2 bg-indigo-600 rotate-12 transform scale-x-0 group-hover:scale-x-50 transition-transform group-hover:duration-1000 duration-500 origin-left"
+            ></span>
+            <span
+              class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2 left-6 z-10"
+              ><a
+                href="https://www.linkedin.com/in/mejry-azyz/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                {{ t("sayhi") }}</a
+              ></span
+            >
+          </div>
+        </div>
+      </div>
+      <!-- End Buttons -->
+      <!-- End Title -->
+    </div>
+
+    <div class="mt-10 lg:ml-auto sm:mt-10">
+      <img
+        class="max-w-full h-auto mx-auto"
+        ngSrc="../../../assets/illus.png"
+        alt="illus"
+        width="400"
+        height="200"
+        priority
+      />
+    </div>
+  </div>
+
+  <div
+    [style.opacity]="showArrow ? '1' : '0'"
+    class="absolute bottom-11 left-0 right-0 hidden md:flex justify-center z-50"
+    id="arrow"
+  >
+    <a (click)="scrollTo('about_me')" class="cursor-pointer">
+      <i
+        class="pi pi-angle-double-down dark:text-white text-xl lg:text-2xl bounce"
+      ></i>
+    </a>
+  </div>
+</div>
+
+<!-- End Hero -->
